@@ -1,0 +1,17 @@
+.container {
+    background-color: #1e5f74;
+    height: 100vh;
+    color: white;
+}
+
+.rollNumber {
+    width: 70%;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.navElementText {
+    width: 70%; 
+    text-align: center; 
+    vertical-align: middle;
+}

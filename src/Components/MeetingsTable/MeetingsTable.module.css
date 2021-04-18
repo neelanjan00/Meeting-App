@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.materialFormField {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  position: relative;
+  display: block;
+  color: #000000;
+  padding: 25px 0 10px 0;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.materialFormField .materialFormFieldLabel {
+  position: absolute;
+  display: block;
+  top: 35px;
+  left: 0px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  pointer-events: none;
+  cursor: text;
+}
+
+.materialFormField .materialFormFieldInput {
+  padding: 10px 0 10px 0;
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+  outline: none;
+}
+
+.materialFormField .materialFormFieldInput:invalid {
+  outline: none;
+  box-shadow: none;
+}
+
+.materialFormField .materialFormFieldInput:valid ~ .materialFormFieldLabel,
+.materialFormField .materialFormFieldInput:focus ~ .materialFormFieldLabel {
+  top: 10px;
+  font-size: 12px;
+}
+
+.materialFormField .materialFormFieldInput:focus {
+  outline: none;
+  color: black;
+  padding-bottom: 8px;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+}
+
+.materialFormField .materialFormFieldInput:focus ~ .materialFormFieldLabel {
+  color: black;
+}
+
+.tableHeader {
+    padding: 10px;
+    font-weight: 100;
+    color: #1E5F74
+}
+
+.tableCell {
+    padding: 10px;
+}
